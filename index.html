@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>محل نعمة للحوم والمجمدات بالمقطم - منيو اللحوم والمجمدات</title>
+<style>
+  body { background:#f8f8f8; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#111; margin:0; padding:20px; }
+  .shop-header { text-align: center; background:#b32e2e; color:#fff; border-radius: 10px; padding: 12px 20px; }
+  .shop-header h1 { margin:0; font-size: 1.8rem; }
+  .shop-header p { margin:5px 0 0; font-size: 1rem; }
+  .tabs { display: flex; justify-content: center; margin: 20px 0; flex-wrap: wrap; gap: 8px; }
+  .tab-btn { background:#ddd; border:none; padding: 10px 18px; border-radius: 8px; cursor:pointer; transition: background-color 0.3s; font-size: 1rem; }
+  .tab-btn.active, .tab-btn:hover { background:#b32e2e; color:#fff; }
+  .tab-content { display:none; max-width: 900px; margin: 0 auto; background: #fff; border-radius: 12px; padding: 16px 24px; box-shadow: 0 4px 12px rgb(0 0 0 / 0.1); }
+  .tab-content.active { display:block; }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+  th, td { border: 1px solid #ccc; padding: 8px 10px; text-align: right; font-size: 1rem; }
+  th { background-color: #b32e2e; color: white; }
+  .contact-info { margin-top: 24px; text-align: center; font-size: 0.9rem; color: #333; }
+</style>
+</head>
+<body>
+<div class="shop-header">
+  <h1>محل نعمة للحوم والمجمدات بالمقطم</h1>
+  <p>الفرع الاول: المقطم - سوق الزلزال بجوار طيور السيدة زينب</p>
+  <p>الفرع الثاني: المقطم - أسواق تحيا مصر - محور عبد المجيد محمود</p>
+  <p>ت : 01277877123</p>
+</div>
+
+<div class="tabs">
+  <button class="tab-btn active" onclick="showTab(0)">قسم اللحوم</button>
+  <button class="tab-btn" onclick="showTab(1)">الإستربس</button>
+  <button class="tab-btn" onclick="showTab(2)">قسم البانيه والناجتس</button>
+  <button class="tab-btn" onclick="showTab(3)">قسم البرجر</button>
+  <button class="tab-btn" onclick="showTab(4)">قسم الجبنة</button>
+  <button class="tab-btn" onclick="showTab(5)">قسم الصوصات</button>
+</div>
+
+<div class="tab-content active" id="tab-0">
+  <table>
+    <thead><tr><th>المنتج</th><th>الوصف</th><th>السعر</th></tr></thead>
+    <tbody>
+      <tr><td>لحم مكعبات</td><td>1 كيلو</td><td>270 جنيه</td></tr>
+      <tr><td>لحم مفروم</td><td>1 كيلو</td><td>250 جنيه</td></tr>
+      <tr><td>لحم موزة</td><td>1 كيلو</td><td>310 جنيه</td></tr>
+      <tr><td>شاورما لحم</td><td>1 كيلو</td><td>320 جنيه</td></tr>
+      <tr><td>لحم بفتيك</td><td>1 كيلو</td><td>300 جنيه</td></tr>
+      <tr><td>كبده بقري</td><td>1 كيلو</td><td>190 جنيه</td></tr>
+      <tr><td>كلاوي بقري</td><td>1 كيلو</td><td>180 جنيه</td></tr>
+      <tr><td>سوسيس</td><td>1 كيلو</td><td>130 جنيه</td></tr>
+      <tr><td>سجق بلدي</td><td>1 كيلو</td><td>120 جنيه</td></tr>
+      <tr><td>سجق فاخر</td><td>1 كيلو</td><td>150 جنيه</td></tr>
+      <tr><td>سجق إسكندراني</td><td>1 كيلو</td><td>130 جنيه</td></tr>
+      <tr><td>سجق مدخن</td><td>1 كيلو</td><td>110 جنيه</td></tr>
+      <tr><td>كفتة شوي</td><td>1 كيلو</td><td>160 جنيه</td></tr>
+      <tr><td>حواوشي</td><td>1 كيلو</td><td>150 جنيه</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="tab-content" id="tab-1">
+  <table>
+    <thead><tr><th>المنتج</th><th>الوصف</th><th>السعر</th></tr></thead>
+    <tbody>
+      <tr><td>استربس ألف هنا</td><td>-</td><td>160 جنيه</td></tr>
+      <tr><td>استربس أطياب</td><td>-</td><td>180 جنيه</td></tr>
+      <tr><td>استربس مزايا</td><td>-</td><td>185 جنيه</td></tr>
+      <tr><td>استربس سيجود</td><td>-</td><td>200 جنيه</td></tr>
+      <tr><td>استربس ولعتين</td><td>-</td><td>240 جنيه</td></tr>
+      <tr><td>استربس سمارت</td><td>-</td><td>225 جنيه</td></tr>
+      <tr><td>استربس شيكاتيتا</td><td>-</td><td>250 جنيه</td></tr>
+      <tr><td>استربس أطياب فاخر</td><td>-</td><td>325 جنيه</td></tr>
+      <tr><td>استربس فراشة ألف هنا</td><td>-</td><td>170 جنيه</td></tr>
+      <tr><td>أطياب علبة</td><td>400 جرام</td><td>150 جنيه</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="tab-content" id="tab-2">
+  <table>
+    <thead><tr><th>المنتج</th><th>الوصف</th><th>السعر</th></tr></thead>
+    <tbody>
+      <tr><td>بانيه مزايا</td><td>-</td><td>75 جنيه</td></tr>
+      <tr><td>بانيه توابل الشرقية</td><td>-</td><td>135 جنيه</td></tr>
+      <tr><td>بانيه شيكاتيتا</td><td>-</td><td>150 جنيه</td></tr>
+      <tr><td>بانيه أطياب</td><td>-</td><td>200 جنيه</td></tr>
+      <tr><td>بانيه أطياب</td><td>400 جرام</td><td>130 جنيه</td></tr>
+      <tr><td>ناجتس أطياب</td><td>-</td><td>235 جنيه</td></tr>
+      <tr><td>ناجتس أطياب</td><td>400 جرام</td><td>140 جنيه</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="tab-content" id="tab-3">
+  <table>
+    <thead><tr><th>المنتج</th><th>الوصف</th><th>السعر</th></tr></thead>
+    <tbody>
+      <tr><td>برجر صلاح</td><td>20 قطعة</td><td>70 جنيه</td></tr>
+      <tr><td>برجر المراعي</td><td>25 قطعة</td><td>115 جنيه</td></tr>
+      <tr><td>برجر توابل الشرقية</td><td>30 قطعة</td><td>120 جنيه</td></tr>
+      <tr><td>برجر قنجاري</td><td>25 قطعة</td><td>120 جنيه</td></tr>
+      <tr><td>برجر دايم</td><td>20 قطعة</td><td>145 جنيه</td></tr>
+      <tr><td>برجر شيكاتيتا</td><td>20 قطعة</td><td>155 جنيه</td></tr>
+      <tr><td>برجر ميتكو</td><td>20 قطعة</td><td>180 جنيه</td></tr>
+      <tr><td>برجر حلواني</td><td>20 قطعة</td><td>210 جنيه</td></tr>
+      <tr><td>برجر جاست</td><td>-</td><td>200 جنيه</td></tr>
+      <tr><td>برجر جاست جبنة</td><td>-</td><td>220 جنيه</td></tr>
+      <tr><td>برجر جامبو هيما</td><td>-</td><td>200 جنيه</td></tr>
+      <tr><td>برجر جامبو دايم</td><td>-</td><td>210 جنيه</td></tr>
+      <tr><td>برجر جامبو شيكاتيتا</td><td>-</td><td>210 جنيه</td></tr>
+      <tr><td>برجر جامبو ميتكو</td><td>-</td><td>290 جنيه</td></tr>
+      <tr><td>برجر المراعي</td><td>8 قطع</td><td>50 جنيه</td></tr>
+      <tr><td>برجر ميتكو</td><td>8 قطع</td><td>110 جنيه</td></tr>
+      <tr><td>برجر حلواني</td><td>8 قطع</td><td>110 جنيه</td></tr>
+      <tr><td>برجر فراخ دايم</td><td>-</td><td>120 جنيه</td></tr>
+      <tr><td>برجر فراخ أطياب</td><td>-</td><td>235 جنيه</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="tab-content" id="tab-4">
+  <table>
+    <thead><tr><th>المنتج</th><th>الوصف</th><th>السعر</th></tr></thead>
+    <tbody>
+      <tr><td>موتزاريلا السلطان</td><td>1 كيلو</td><td>145 جنيه</td></tr>
+      <tr><td>موتزاريلا السلطان</td><td>½ كيلو</td><td>75 جنيه</td></tr>
+      <tr><td>موتزاريلا السلطان</td><td>200 جرام</td><td>35 جنيه</td></tr>
+      <tr><td>موتزاريلا السلطان طبيعي 100%</td><td>1 كيلو</td><td>170 جنيه</td></tr>
+      <tr><td>موتزاريلا طبيعي</td><td>½ كيلو</td><td>90 جنيه</td></tr>
+      <tr><td>ميكس السلطان</td><td>1 كيلو</td><td>145 جنيه</td></tr>
+      <tr><td>ميكس السلطان</td><td>½ كيلو</td><td>75 جنيه</td></tr>
+      <tr><td>ميكس السلطان</td><td>200 جرام</td><td>30 جنيه</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="tab-content" id="tab-5">
+  <table>
+    <thead><tr><th>المنتج</th><th>الوصف</th><th>السعر</th></tr></thead>
+    <tbody>
+      <tr><td>مايونيز آيلو</td><td>-</td><td>50 جنيه</td></tr>
+      <tr><td>كاتشب آيلو</td><td>-</td><td>35 جنيه</td></tr>
+      <tr><td>باربيكيو آيلو</td><td>-</td><td>45 جنيه</td></tr>
+      <tr><td>مستردة آيلو</td><td>-</td><td>45 جنيه</td></tr>
+      <tr><td>فايري آيلو</td><td>-</td><td>45 جنيه</td></tr>
+      <tr><td>رانش آيلو</td><td>-</td><td>50 جنيه</td></tr>
+      <tr><td>سويت تشيللي آيلو</td><td>-</td><td>45 جنيه</td></tr>
+      <tr><td>ثومية آيلو</td><td>-</td><td>45 جنيه</td></tr>
+      <tr><td>تكساس برجر آيلو</td><td>-</td><td>65 جنيه</td></tr>
+      <tr><td>شيدر آيلو</td><td>-</td><td>65 جنيه</td></tr>
+      <tr><td>تشيزي آيلو</td><td>-</td><td>70 جنيه</td></tr>
+      <tr><td>مايونيز إن جي</td><td>-</td><td>50 جنيه</td></tr>
+      <tr><td>كاتشب إن جي</td><td>-</td><td>45 جنيه</td></tr>
+      <tr><td>مستردة شيفي</td><td>1 كيلو</td><td>50 جنيه</td></tr>
+      <tr><td>كاتشب شيفي</td><td>1 كيلو</td><td>55 جنيه</td></tr>
+      <tr><td>باربيكيو شيفي</td><td>1 كيلو</td><td>60 جنيه</td></tr>
+      <tr><td>مستردة شيفي</td><td>150 جرام</td><td>25 جنيه</td></tr>
+      <tr><td>كاتشب شيفي</td><td>-</td><td>30 جنيه</td></tr>
+      <tr><td>مايونيز شيفي</td><td>-</td><td>35 جنيه</td></tr>
+      <tr><td>باربيكيو شيفي</td><td>-</td><td>35 جنيه</td></tr>
+      <tr><td>مايونيز هاينز</td><td>ربع</td><td>45 جنيه</td></tr>
+      <tr><td>كاتشب هاينز</td><td>ربع</td><td>40 جنيه</td></tr>
+      <tr><td>مايونيز هاينز</td><td>صغير</td><td>25 جنيه</td></tr>
+      <tr><td>كاتشب هاينز</td><td>صغير</td><td>25 جنيه</td></tr>
+      <tr><td>ميكس تيلا</td><td>1 كيلو</td><td>125 جنيه</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<script>
+function showTab(tabIndex) {
+  const tabs = document.querySelectorAll('.tab-btn');
+  const contents = document.querySelectorAll('.tab-content');
+  tabs.forEach((tab, i) => {
+    tab.classList.toggle('active', i === tabIndex);
+    contents[i].classList.toggle('active', i === tabIndex);
+  });
+}
+</script>
+</body>
+</html>
